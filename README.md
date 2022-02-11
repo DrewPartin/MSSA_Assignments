@@ -13,3 +13,4 @@ Assignment 4.3: Windows Form GUI and backend design using C# (Harry Potter)
 Assignment 4.4: Microsoft Forms Application (Coffee Shop), add/delete orders using inheritance from an abstract class (C#)
 Assignment 5.1: Calculator & Employee System with menu, interfaces, and error handling using Windows Forms and C#
 Assignment 5.3: FileStream with serialization in Binary, XML, and JSON using a Windows Forms Application in C#
+Assignment 5.4: WinForms library app with add/delete functionality, using classes/methods referenced from a separately created dll file (C#)
