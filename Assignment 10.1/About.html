@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/site.css" type="text/css" />
+</head>
+
+<body>
+    <div class="hero-img"></div>
+    <div class="container">
+        <header>
+            <a href="#" class="logo">drewpartin</a>
+            <nav>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.783 18.516">
+                    <path id="Icon_material-close" data-name="Icon material-close" d="M25.82,9.227,23.975,7.5,16.66,14.346,9.345,7.5,7.5,9.227l7.315,6.846L7.5,22.92l1.845,1.727L16.66,17.8l7.315,6.846L25.82,22.92,18.5,16.073Z" transform="translate(-6.768 -6.815)" fill="#000" stroke="#000" stroke-width="1" />
+                </svg>
+                <ul class="menulist">
+                    <li><a class="menuanchor" href="#">Home</a></li>
+                    <li><a class="menuanchor" href="/About.html">About</a></li>
+                    <li><a class="menuanchor" href="#">Projects</a></li>
+                    <li><a class="menuanchor" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.32 13.213">
+                <path id="Icon_material-menu" data-name="Icon material-menu" d="M4.5,21.213H22.82V19.178H4.5Zm0-5.089H22.82V14.089H4.5ZM4.5,9v2.036H22.82V9Z" transform="translate(-4 -8.5)" fill="#fff" stroke="#fff" stroke-width="1" />
+            </svg>
+        </header>
+        <section class="hero">
+            <section class="herotext">
+                <h1>Meet Drew!</h1>
+                <h2>A Software Developer with a passion for all things Science and Engineering</h2>
+            </section>
+            <img class="selfie" src="images/face.jpg" alt="Face">
+        </section>
+
+        <section class="myinfo">
+            <div class="category">
+                <div class="content">
+                    <p class="title">Education</p>
+                    <ul>
+                        <li>Associate of Arts in General Studies from the University of Phoenix</li>
+                        <li>Current Senior at Natonal University, pursuing a Bachelor of Science in Computer Science</li>
+                        <li>Currently attending the Microsoft Software &amp; Systems Academy</li>
+                    </ul>
+                </div>
+                <section class="edimages">
+                    <img class="mssaimg" src="images/Microsoft.png" alt="MSSA Logo">
+                    <img class="abetimg" src="images/ABET.jpg" alt="ABET Logo">
+                    <img class="nuimg" src="images/NU.jpg" alt="National University Logo">
+                    <img class="uopimg" src="images/UoPhx.jpg" alt="University of Phoenix Logo">
+                </section>
+            </div>
+            <div class="category reverse">
+                <div class="content">
+                    <p class="title">Work Experience</p>
+                    <ul>
+                        <li>Served 20 years in the US Marine Corps as an Aviation Ordnance Systems Technician and Chief</li>
+                        <li>4 Iraq deployments, 3 years as a Marine Combat Instructor, served aboard a Navy Aircraft Carrier</li>
+                        <li>Earned multiple qualifications in Quality Assurance, Production Control, Process Improvement, and Supply Chain Management</li>
+                        <li>Gained valuable leadership skills that will last a lifetime</li>
+                    </ul>
+                </div>
+                <section class="workimages">
+                    <img class="flagimg" src="images/USMC.jpg" alt="US Marine Corps Flag">
+                    <img class="workimg" src="images/rockets.jpg" alt="Helicopter Rocket Pod">
+                </section>
+            </div>
+            <div class="category">
+                <div class="content">
+                    <p class="title">Hobbies</p>
+                    <p>I've picked up a lot of hobbies in my lifetime, because I am always looking for something new to learn. I have been white water rafting in Alaska, skydiving from California to North Carolina, and SCUBA diving and snowboarding all over the world. I have laid floor tiles, built wooden furniture, and I can fix just about anything. The hobbies that have stuck with me since I was a child, though, are reading, a fascination with space, and a strong interest in the hardware and software of computers.</p>
+                </div>
+                <section class="hobbyimages">
+                    <img class="hobimg" src="images/skydiving.jpg" alt="Skydiving">
+                    <img class="hobimg" src="images/rafting.jpg" alt="Rafting">
+                    <img class="hobimg" src="images/swimming.jpg" alt="SCUBA Diving">
+                </section>
+            </div>
+            <div class="category reverse">
+                <div class="content">
+                    <p class="title">Aspirations</p>
+                    <p>As I transition out of a long military career, my mind is set on doing something that can help change the world. With the current advancements in space exploration, artificial intelligence, electric and automated vehicles, and sustainable energy, it is clear that these technologies are the future. I intend to focus my efforts on becoming a part of that development. Whether it is my software-development, problem-solving, or leadership abilities that help me to to do that, I am committed to the lifelong pursuit of learning.</p>
+                </div>
+                <section class="aspirationimages">
+                    <img class="aspimg" src="images/perseverance.jpg" alt="Perseverance Rover and Inginuity Helicopter">
+                    <img class="aspimg" src="images/AI.jpg" alt="Touching Hands">
+                    <img class="aspimg" src="images/dragon.jpg" alt="Dragon Docking to the ISS">
+                </section>
+            </div>
+        </section>
+    </div>
+    <script>
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+        menu.addEventListener('click', () => {
+            nav.classList.add('open-nav')
+        })
+        close.addEventListener('click', () => {
+            nav.classList.remove('open-nav')
+        })
+    </script>
+</body>
+</html>

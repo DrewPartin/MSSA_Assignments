@@ -1,0 +1,680 @@
+﻿body {
+    margin: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/nebula.jpg');
+    background-size: cover;
+    background-position-x: 20%;
+    background-position-y: 20%;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.selfie {
+    position: center;
+    width: 100%;
+    height: 50%;
+}
+
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: lightgray;
+    height: 100vh;
+    width: 50%;
+    z-index: 99;
+    text-transform: uppercase;
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+}
+
+.menulist {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8em;
+}
+
+.menuanchor:hover {
+    background: white;
+    color: rebeccapurple;
+}
+
+.menuanchor {
+    color: black;
+    padding: .75em 2em;
+    display: block;
+}
+
+.close {
+    float: right;
+    margin: 2em;
+    width: 2.5em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+    line-height: 3.3rem;
+}
+
+h2 {
+    font-weight:300;
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: -.2em;
+    line-height: 3.3rem;
+}
+
+section.hero {
+    color: white;
+    height: 90vh;
+}
+
+svg {
+    width: 3em;
+    margin-top: -.6em;
+    cursor: pointer;
+}
+
+.mssaimg {
+    transform: translateY(26%);
+    width: 48%;
+    object-fit: fill;
+    height: 6em;
+}
+
+.abetimg {
+    transform: translateY(6%);
+    width: 48%;
+    object-fit: fill;
+    height: 6em;
+}
+
+.nuimg {
+    width: 48%;
+    object-fit: fill;
+    height: 7em;
+}
+
+.uopimg {
+    transform: translateX(5%);
+    width: 48%;
+    object-fit: fill;
+    height: 7em;
+}
+
+.workimg {
+    width: 100%;
+    object-fit: fill;
+    height: 25em; 
+}
+
+.flagimg {
+    width: 100%;
+    object-fit: fill;
+    height: 18em;
+}
+
+.hobimg {
+    width: 100%;
+    object-fit: fill;
+    height: 18em;
+}
+
+.aspimg {
+    width: 100%;
+    object-fit: fill;
+    height: 20em;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.open-nav {
+    transform: translateX(0%);
+}
+
+@media only screen and (min-width: 680px) {
+    body {
+        margin: 1.5em 6em;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    body {
+        margin: 1.5em 7em;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+@media only screen and (min-width: 920px) {
+    .menu {
+        display: none;
+    }
+
+    nav {
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+    }
+
+    svg.close {
+        display: none;
+    }
+
+    .menulist {
+        display: flex;
+        margin: 0;
+    }
+
+    .menuanchor {
+        color: white;
+        padding: .5em 1.5em;
+        font-size: 1em;
+    }
+
+        .menuanchor:hover {
+            text-decoration: underline;
+            background: #d8d8d847;
+            color: white;
+        }
+
+    .hero {
+        display: flex;
+        transform: translateY(25%);
+        justify-content: space-between;
+    }
+
+    .herotext {
+        transform: translateX(-25%);
+        transform: translateY(-5.5%);
+        width: 48%
+    }
+
+    .selfie {
+        width: 48%;
+    }
+
+    .content {
+        margin-top: 5em;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .mssaimg {
+            transform: translateY(26%);
+            width: 48%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .abetimg {
+            transform: translateY(6%);
+            width: 48%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .nuimg {
+            width: 48%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .uopimg {
+            transform: translateX(5%);
+            width: 48%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .workimg {
+            width: 100%;
+            object-fit: fill;
+            height: 30em;
+        }
+
+        .flagimg {
+            width: 100%;
+            object-fit: fill;
+            height: 23em;
+        }
+
+        .hobimg {
+            width: 100%;
+            object-fit: fill;
+            height: 23em;
+        }
+
+        .aspimg {
+            width: 100%;
+            object-fit: fill;
+            height: 25em;
+        }
+    }
+
+    @media only screen and (min-width: 1080px) {
+
+        .herotext {
+            transform: translateX(-25%);
+            transform: translateY(-1.5%);
+            width: 48%
+        }
+
+        .flagimg {
+            width: 100%;
+            object-fit: fill;
+            height: 28em;
+        }
+
+        .workimg {
+            width: 100%;
+            object-fit: fill;
+            height: 35em;
+        }
+
+        .hobimg {
+            width: 100%;
+            object-fit: fill;
+            height: 28em;
+        }
+
+        .aspimg {
+            width: 100%;
+            object-fit: fill;
+            height: 30em;
+        }
+    }
+
+    @media only screen and (min-width: 1270px) {
+        .herotext {
+            transform: translateX(-25%);
+            transform: translateY(5%);
+            width: 48%
+        }
+
+        .selfie {
+            width: 48%;
+            height: 60%;
+        }
+
+        .menuanchor {
+            font-size: 1.3em;
+        }
+
+        .logo {
+            font-size: 1.6em;
+        }
+
+        .mssaimg {
+            transform: translateY(26%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .abetimg {
+            transform: translateY(6%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .nuimg {
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .uopimg {
+            transform: translateX(5%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+
+        .content {
+            font-size: 1.4rem;
+        }
+
+        section.workimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flagimg {
+            width: 58%;
+            object-fit: fill;
+            height: 25em;
+        }
+
+        .workimg {
+            width: 40%;
+            object-fit: fill;
+            height: 25em;
+        }
+
+        .hobbyimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hobimg {
+            width: 32%;
+            object-fit: fill;
+            height: 20em;
+        }
+
+        .aspirationimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .aspimg {
+            width: 32%;
+            object-fit: fill;
+            height: 18em;
+        }
+    }
+
+    @media only screen and (min-width: 1270px) {
+        .herotext {
+            transform: translateX(-25%);
+            transform: translateY(5%);
+            width: 48%
+        }
+
+        .selfie {
+            width: 48%;
+            height: 60%;
+        }
+
+        .menuanchor {
+            font-size: 1.3em;
+        }
+
+        .logo {
+            font-size: 1.6em;
+        }
+
+        .mssaimg {
+            transform: translateY(26%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .abetimg {
+            transform: translateY(6%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .nuimg {
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .uopimg {
+            transform: translateX(5%);
+            width: 48%;
+            object-fit: fill;
+            height: 13em;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+
+        .content {
+            font-size: 1.4rem;
+        }
+
+        section.workimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flagimg {
+            width: 58%;
+            object-fit: fill;
+            height: 25em;
+        }
+
+        .workimg {
+            width: 40%;
+            object-fit: fill;
+            height: 25em;
+        }
+
+        .hobbyimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .hobimg {
+            width: 32%;
+            object-fit: fill;
+            height: 20em;
+        }
+
+        .aspirationimages {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .aspimg {
+            width: 32%;
+            object-fit: fill;
+            height: 18em;
+        }
+    }
+
+    @media only screen and (min-width: 1580px) {
+        .herotext {
+            transform: translateX(-25%);
+            transform: translateY(8%);
+            width: 48%
+        }
+
+        .selfie {
+            width: 48%;
+            height: 75%;
+            transform: translateY(-10%);
+        }
+
+        .menuanchor {
+            font-size: 1.4em;
+        }
+
+        .logo {
+            font-size: 1.7em;
+        }
+
+        section.edimages {
+            display: flex;
+        }
+
+        .mssaimg {
+            transform: translateY(26%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .abetimg {
+            transform: translateY(6%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .nuimg {
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .uopimg {
+            transform: translateX(5%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.9rem;
+        }
+
+        .content {
+            font-size: 1.6rem;
+        }
+
+        .flagimg {
+            width: 58%;
+            object-fit: fill;
+            height: 28em;
+        }
+
+        .workimg {
+            width: 40%;
+            object-fit: fill;
+            height: 28em;
+        }
+
+        .hobimg {
+            width: 32%;
+            object-fit: fill;
+            height: 23em;
+        }
+
+        .aspimg {
+            width: 32%;
+            object-fit: fill;
+            height: 22em;
+        }
+    }
+
+    @media only screen and (min-width: 1920px) {
+        .herotext {
+            transform: translateX(-25%);
+            transform: translateY(10%);
+            width: 48%
+        }
+
+        .selfie {
+            width: 48%;
+            height: 80%;
+            transform: translateY(-10%);
+        }
+
+        .menuanchor {
+            font-size: 1.5em;
+        }
+
+        .logo {
+            font-size: 1.8em;
+        }
+
+        .mssaimg {
+            transform: translateY(26%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .abetimg {
+            transform: translateY(6%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .nuimg {
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .uopimg {
+            transform: translateX(5%);
+            width: 24%;
+            object-fit: fill;
+            height: 10em;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.9rem;
+        }
+
+        .content {
+            font-size: 1.6rem;
+        }
+
+        .flagimg {
+            width: 58%;
+            object-fit: fill;
+            height: 30em;
+        }
+
+        .workimg {
+            width: 40%;
+            object-fit: fill;
+            height: 30em;
+        }
+
+        .hobimg {
+            width: 32%;
+            object-fit: fill;
+            height: 26em;
+        }
+
+        .aspimg {
+            width: 32%;
+            object-fit: fill;
+            height: 24em;
+        }
+    }
+}
+
+
+
