@@ -94,3 +94,8 @@ Week 10
         1. Write inline javascript functions to perform simple arithmetic functions like add, subtract, multiply and divide. Provide 2 input boxes to enter 2 numbers. Search these input boxes by using DOM and then perform the calculations. 4 buttons can be used to invoke the functions.
         2. Design a simple form to allow users to enter their hobby. If user clicks on “add more hobby” add more text box control dynamically using DOM.
         3. Declare arrays of string. Enter user defined data into it and perform basic operations on array.
+
+    Assignment 10.2.1
+        1. Design a registration form having minimum 10 fields. Apply validations using HTML5 attributes and using javascript.
+
+    
