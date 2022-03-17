@@ -2,7 +2,7 @@
 
 A compilation of my work during the Microsoft Software &amp; Systems Academy
 
-# Week 1:
+Week 1:
 
         Assignment 1.1:
 
@@ -26,7 +26,7 @@ A compilation of my work during the Microsoft Software &amp; Systems Academy
                 1. Create a structure named “Point” and 2 data members: X and Y coordinate. Declare 2 points: P1 and P2. Determine if P2 is to the right or left of P1 or on same axis , by comparing the x xoordinates. ( if p1.x is more than p2.x , it is to the right ).
                 2. Write a class: “Student” with private data members: StudentId ( int), StudentFname (stirng), StudentLname (string ), StudentGrade ( char ) and public properties for each data member. Instantiate the class and assign data to properties.call get and set properties.
 
-# Week 2:
+Week 2:
 
         Assignment 2.1:
 
@@ -38,11 +38,11 @@ A compilation of my work during the Microsoft Software &amp; Systems Academy
                 1. Write a console application to create a text file and save your basic details like name, age, address ( use dummy data). Read the details from same file and print on console.
                 2. Design a tip calculator : enter the bill total, tip % and display grand total after adding tip.
 
-# Week 3: 
+Week 3: 
 
         SQL Classes (all assignments completed in virtual labs)
 
-# Week 4:
+Week 4:
 
         Assignment 4.1:
 
@@ -69,7 +69,7 @@ A compilation of my work during the Microsoft Software &amp; Systems Academy
                 1. Events, delegates: Create a windows form application to display bank account details. Create an event for low balance and as soon as balance goes low than 200, notify by raising the low balance event. Use delegates.
                 2. Organizing data into collections: Create an abstract base class to represent “Beverage” and inherit “Coffee” class from it. Create a generic list ( you may use Dictionary/Sortedlist) of coffees. Design windows form application to display the list of coffees in grid and perform add/ delete.
 
-# Week 5:
+Week 5:
 
         Assignment 5.1:
 
@@ -85,26 +85,26 @@ A compilation of my work during the Microsoft Software &amp; Systems Academy
                 1. Try out different controls in wpf (xaml application).
                 2. Create a class library with BookRepository class and add methods like AddBook, DisplayBooks. Add reference of this class library in windows form application and call methods appropriately. Convert the windows forms application ( of emp management system) to use class library.
 
-# Week 6
+Week 6
 
         Assignment 6.2:
 
                 1. Create a table “Cars”. Add columns like VIN, Make, Model, Year, Price etc.
                 2. Create a Windows forms app to display records in grid. Perform basic CRUD.
 
-# Week 7: 
+Week 7: 
 
         Began working on midterm project (see MSSA_Projects repository)
 
-# Week 8: 
+Week 8: 
 
         Project Presentation and Technical Interviews
 
-# Week 9: 
+Week 9: 
 
         Professional Development Week
 
-# Week 10:
+Week 10:
 
         Assignment 10.1:
 
