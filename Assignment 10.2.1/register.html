@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 10.2.1</title>
+    <script>
+        function validateForm() {
+            let val1 = document.forms['diverform']['password1'].value;
+            let val2 = document.forms['diverform']['password2'].value;
+            if (val1 != val2) {
+                alert('Passwords do not match');
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h2 class="title">Diver Registration Form</h2>
+    <form name="diverform" method="post" action="register.aspx" onsubmit="return validateForm()">
+        <fieldset class="fieldset">
+            
+            <div class="firstName" id="firstNameField">
+                First Name: <input class="input" type="text" placeholder="First Name" required autofocus />
+            </div>
+            <div class="lastName" id="lastNameField">
+                Last Name: <input class="input" type="text" placeholder="Last Name" required />
+            </div>
+            <div class="email" id="email">
+                Email: <input class="input" type="email" placeholder="Email" required pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" />
+            </div>
+            <div class="phone" id="phone">
+                Contact Number: <input class="input" type="tel" placeholder="Contact Number" pattern="[0-9]{10}" maxlength="10" />
+            </div>
+            <div class="address" id="address">
+                Address: <textarea class="input" maxlength="150" placeholder="Street Address, City, State, Zip"></textarea>
+            </div>
+            <div class="date" id="birthdate">
+                Birth Date: <input class="input" subclass="date" type="date" />
+            </div>
+            <div class="licenseType" id="licenseType">
+                License Type: <input class="input" list="rating" placeholder="Rating" />
+                <datalist class="ratinglist" id="rating">
+                    <option value="Basic Open Water" />
+                    <option value="Advanced Open Water" />
+                    <option value="Deep Diver" />
+                    <option value="Rescue Diver" />
+                    <option value="Master Diver" />
+                </datalist>
+            </div>
+            <div class="licenseNumber" id="licenseNumber">
+                License Number: <input class="input" type="text" placeholder="License Number" required maxlength="10" />
+            </div>
+            <div class="password" id="password">
+                Password : <input class="input" type="password" name="password1" autocomplete="off" required pattern="^[a-zA-Z]\w{3,14}$" />
+            </div>
+            <div class="password" id="passwordconfirm">
+                Confirm Password : <input class="input" type="password" name="password2" autocomplete="off" required />
+            </div>
+        </fieldset>
+        <div class="button">
+            <input type="submit" value="Register" />
+            <input type="reset" value="Reset Form" />
+        </div>
+    </form>
+</body>
+</html>

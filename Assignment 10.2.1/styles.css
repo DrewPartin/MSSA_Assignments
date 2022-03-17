@@ -1,0 +1,32 @@
+﻿body {
+    background: linear-gradient(#55afc7,#050c2f);
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bold;
+    height: 100vh;
+}
+
+fieldset {
+    border: none;
+    z-index: 999;
+}
+
+.input {
+    border: solid 1px;
+    border-color: lightgray;
+    display: grid;
+    justify-content: left;
+}
+
+.input:valid {
+    border-color: green;
+}
+
+.input:invalid {
+    border-color: red;
+}
+
+
+.button {
+    transform: translateX(2.6%);
+}
