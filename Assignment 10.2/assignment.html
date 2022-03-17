@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 10.2</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/DOMScript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <ol>
+            <li>
+                <label>Write inline javascript functions to perform simple arithmetic functions like add, subtract, multiply and divide. Provide 2 input boxes to enter 2 numbers. Search these input boxes by using DOM and then perform the calculations. 4 buttons can be used to invoke the functions.</label>
+                <br /><br />
+                <div id="BasicMath">
+                    <label>Enter two numbers and use the buttons below:</label><br />
+                    <input type="number" name="input1" class="in1" />
+                    <input type="number" name="input2" class="in2"/><br /><br />
+                    <button type="button" id="addBtn">+</button>
+                    <button type="button" id="subtractBtn">-</button>
+                    <button type="button" id="multiplyBtn">x</button>
+                    <button type="button" id="divideBtn">÷</button>
+                    =
+                    <output id="result" class="resultOutput"></output>
+                </div>
+                <br /><br />
+            </li>
+            <li>
+                <label>Design a simple form to allow users to enter their hobbies. If the user clicks on “Add Hobby”, add additional text box controls dynamically using DOM.</label>
+                <br /><br />
+                <label>Hobbies (5 max):</label>
+                <div id="hobbiesList">
+                    <input type="text" name="hobby" class="hobbiesInput" />
+                    <button type="button" id="newHobbyBtn">Add Hobby</button>
+                </div>
+                <br /><br />
+            </li>
+            <li>
+                <label>Declare an array of strings. Enter user defined data into it and perform basic operations on the array.</label>
+                <br /><br />
+                <label>Instructions:</label><br />
+                <label>Enter a string and click 'Add String' to add it to the array (5 max).</label><br />
+                <label> - OR -</label><br />
+                <label>To delete a string from the array, enter the number next to it and click 'Delete String'.</label><br />
+                <label>Clicking 'Delete String' with an empty textbox will delete the last string that was added to the array.</label><br />
+                <label>Click 'Clear Array' to delete all stored strings.</label><br /><br />
+
+                <input type="text" id="input3" class="arrayInput" />
+                <button type="button" id="stringAddBtn">Add String</button>
+                <button type="button" id="stringDeleteBtn">Delete String</button>
+                <button type="button" id="clearArray">Clear Array</button><br /><br />
+                <ol id="arrayOutput" class="arrayOutput"></ol>
+            </li>
+        </ol>
+    </div>
+
+</body>
+</html>
