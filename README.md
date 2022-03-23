@@ -97,5 +97,23 @@ Week 10
 
     Assignment 10.2.1
         1. Design a registration form having minimum 10 fields. Apply validations using HTML5 attributes and using javascript.
-
     
+    Assignment 10.3
+        1. Modify the about us page to use text styling, graphical effects. Refer w3schools
+        2. Modify the existing website to add video and audio tags. Also add the geolocation api to get user’s location.
+
+    Assignment 10.4
+        1. Modify existing website to have adaptive user interface. Modify the about us page to print it without graphics and multimedia.
+        2. Design a static website. Have following pages in them: Home page, About page, Contact page, Signup page, Gallery page.
+    
+Week 11
+
+    Assignment 11.1: Continue working on website.
+
+    Assignment 11.3
+        1. Create a simple ASP.NET CORE MVC application and print “hello world”
+
+    Assignment 11.4
+        1. Create an empty mvc application . add the static files created in html5. Use the static files middleware to display static files. You may use the About Me html page created before.
+        2. Create an empty mvc application . Add interface: Idata containing basic CRUD , add model : Product. Add class : ProductData implementing Idata to create repository. Use dependency injection. This lab is to get familiar with dependency injections.
+
