@@ -108,8 +108,6 @@ Week 10
     
 Week 11
 
-    Assignment 11.1: Continue working on website.
-
     Assignment 11.3
         1. Create a simple ASP.NET CORE MVC application and print “hello world”
 
