@@ -1,0 +1,109 @@
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\appsettings.Development.json
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\appsettings.json
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.exe
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.deps.json
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.runtimeconfig.json
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.runtimeconfig.dev.json
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.pdb
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.csproj.AssemblyReference.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.GeneratedMSBuildEditorConfig.editorconfig
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.AssemblyInfoInputs.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.AssemblyInfo.cs
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.csproj.CoreCompileInputs.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.MvcApplicationPartsAssemblyInfo.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\scopedcss\bundle\Assignment 11.4.styles.css
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\staticwebassets\Assignment 11.4.StaticWebAssets.Manifest.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.RazorTargetAssemblyInfo.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\refint\Assignment 11.4.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.pdb
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.genruntimeconfig.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\ref\Assignment 11.4.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Humanizer.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\System.Composition.Convention.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\System.Composition.Hosting.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\System.Composition.Runtime.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\System.Composition.TypedParts.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.csproj.CopyComplete
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.Views.dll
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\bin\Debug\net5.0\Assignment 11.4.Views.pdb
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.RazorAssemblyInfo.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.RazorAssemblyInfo.cs
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.TagHelpers.input.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.TagHelpers.output.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.RazorCoreGenerate.cache
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Razor\Views\Index.cshtml.g.cs
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.RazorTargetAssemblyInfo.cs
+D:\MSSA\PCAD5\20486\Assignments\Assignment 11.4\obj\Debug\net5.0\Assignment 11.4.Views.pdb

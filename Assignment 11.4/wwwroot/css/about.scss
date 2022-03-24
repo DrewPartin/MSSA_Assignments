@@ -1,0 +1,528 @@
+body {
+    margin: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(rgb(227, 227, 227), rgb(227, 227, 227), rgb(227, 227, 227), black);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.hero-imgbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/about_images/nebula.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    z-index: -2;
+    animation: introLoad1 1s forwards;
+}
+
+.hero-imgface {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/about_images/face-nobg-reversed.png);
+    background-size: 80%;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 55vh;
+    z-index: -1;
+    animation: introLoad2 2.2s forwards;
+    opacity: 0;
+}
+
+.logo {
+    color: rgb(88, 226, 219);
+    font-weight: bold;
+
+    span {
+        color: white;
+    }
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0));
+    height: 100vh;
+    width: 50%;
+    z-index: 99;
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin-top: 7em;
+
+        a {
+            color: rgb(88, 226, 219);
+            padding: .75em 2em;
+            display: block;
+            
+
+            &:hover {
+                background:rgba(168, 168, 168, 0.473);
+                font-size: 23.5px;
+                letter-spacing: .07em;
+                padding-left:1.6em;
+                padding-top: .5em;
+                padding-bottom: .65em;
+                text-shadow: 3px 3px rgb(27, 27, 27);
+            }
+        }
+    }
+
+    .close {
+        width: 2em;
+        float: right;
+        margin: 2em;
+
+        path {
+            fill: white;
+            stroke: white;
+        }
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    
+    svg {
+        width: 2.3em;
+        margin-top: -.5em;
+        cursor: pointer;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: .7em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.subhead {
+    width: 55%;
+    margin-top: 1.4rem;
+    text-align: center;
+}
+
+section.hero {
+    color: white;
+    height: 47vh;
+    animation: moveDown 1s ease-in-out forwards;
+    opacity: 0;
+}
+
+.about-info {
+
+    .education-images {   
+        padding-left: 1.6em;
+    
+        img {
+            width: 47%;
+            height: 6em;
+        }
+    
+        .abet {
+            transform: translateY(-20%);
+        }
+    }
+    
+    .work-images {
+        padding-left: 1em;
+    
+        img {
+            width: 100%;   
+            object-fit: cover;
+            height: 18em;   
+        }
+    }
+    
+    .hobby-images {
+        padding-left: 1em;
+    
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 350px;
+        }
+    }
+    
+    .asp-images {
+        padding-left: .5em;
+    
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 1.25rem;
+    }
+
+    p {
+        line-height: 1.5rem;
+    }
+}
+
+.copyright {
+    margin-top: 4em;
+    text-align: center;
+    p {
+        color: white;
+        line-height: .5rem;
+        font-size: .8rem;
+    }
+}
+
+.open-nav {
+    transform: translateX(0%);
+}
+
+@media only screen and (min-width: 580px) {
+    h1 {
+        text-align: left;
+        padding-left: 2.5em;
+    }
+
+    .education {
+
+        .education-images {
+            width:auto;
+    
+            img {
+                height: 7em; 
+            }   
+        }
+    }
+
+    .experience {
+    
+        .work-images {
+            
+            img {
+                object-fit: fill;
+                height: 350px;    
+            }
+        }
+    }
+
+    .hobbies {
+
+        .hobby-images {
+    
+            img {
+                object-fit: cover;
+                height: 20em;
+            }
+        }
+    }
+
+    .aspirations {
+
+        .asp-images {
+    
+            img {
+                object-fit: cover;
+                height: 22em;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+    body {
+        margin: 1.5em 5em;
+    }
+    
+    h1 {
+        text-align: center;
+        width: 55%;
+        padding-left: 0;
+    }
+
+    .hero-imgface {
+        right: 0;        
+        left: auto;
+        width: 650px;
+        height: 55vh;
+        background-position-x: right;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .hero {
+        margin-top: 3rem;
+    }
+
+    .education-images {
+
+        img {
+            padding-top: 1em;
+        }
+    }
+
+    .about-info {
+        margin-top: -20px;
+    }
+
+}
+
+@media only screen and (min-width: 885px) {
+
+    .menu {
+        display: none;
+    }
+
+    body {
+        .hero-imgbg {
+            background-size: unset;
+            background-position-x: 18%;
+            background-position-y: 40%;
+        }
+    }
+
+    section.hero {
+        width: 70%;
+        padding-top: .1em;
+        font-size: larger;
+
+        h1 {
+            width: 100%;
+        }
+
+        .subhead {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    nav {
+        transform: translateX(0);
+        position: unset;
+        display: block;
+        width: auto;
+        height: auto;
+        background: none;
+
+        svg.close {
+            display: none;
+        }
+
+        ul {
+            display: flex;
+            margin: 0;
+
+            a {
+                color: white;
+                padding: 0 1.3em;
+                font-size: 1.1rem;
+                margin-top: .18em;
+                
+
+                &:hover {
+                    color:rgb(88, 226, 219);
+                    background: none;
+                    text-decoration: underline;
+                    font-size: 1.1rem;
+                    letter-spacing: unset;
+                    padding: 0 1.3em;
+                    text-shadow: none;
+                    margin-top: .18em;
+                }
+            }
+        }
+    }
+
+    .education {
+
+        .education-images {
+            width:auto;
+    
+            img {
+                height: 9em;
+            }
+            
+            .UoP {
+                padding-left: 0;
+            }
+        }
+    }
+
+    .experience {
+    
+        .work-images {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+
+            img {
+                object-fit: fill;
+                width: 47%;
+                height: 250px;    
+            }
+        }
+    }
+
+    .hobbies {
+
+        .hobby-images {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+
+            img {
+                object-fit: cover;
+                height: 200px;
+                width: 32%;
+            }
+        }
+    }
+
+    .aspirations {
+
+        .asp-images {
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+
+            img {
+                object-fit: cover;
+                height: 200px;
+                width: 32%;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .education {
+
+        .education-images {
+
+            img {
+                object-fit: cover;
+                width: 24%;
+                height:fit-content;
+            }
+        
+            .abet {
+                transform: translateY(-.7em);
+            }
+            
+            .MS {
+                transform: translateY(1em);
+            }
+        }
+    }
+
+    .content {
+        
+        ul {
+            font-size: larger;
+        }
+
+        p {
+            font-size: larger;
+        }
+
+        .title {
+            font-size: x-large;
+        }
+    }
+    
+    @media only screen and (min-width: 1260px) {
+
+        body {
+            margin: 1.5em 10em;
+        }
+
+        section.hero {
+            width: 55%;
+            padding-left: 15em; 
+            h1 {
+                font-size: 2.8rem;
+            }   
+            .subhead {
+                font-size: x-large;
+            }
+        }
+
+        .experience {
+            .work-images {
+                padding-left: 5em;
+                padding-right: 5em;
+                justify-content: unset;
+                justify-content: center;
+                img {
+                    width: 450px;
+                    height: 300px;
+                    padding-left: 2em;
+                    padding-right: 2em;    
+                }
+            }
+        }
+        
+        .hobbies {
+            .hobby-images {
+                img {
+                    height: 280px;
+                }
+            }
+        }
+
+        .aspirations {
+            .asp-images {
+                img {
+                    height: 280px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes introLoad1 {
+    from {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+@keyframes introLoad2 {
+    from {
+        clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+    }
+    to {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        opacity: 1;
+    }
+}
+
+@keyframes moveDown {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

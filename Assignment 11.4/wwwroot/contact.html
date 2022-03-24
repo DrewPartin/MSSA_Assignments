@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>drewpartin.com/contact</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        <div class="hero-imgbg"></div>
+        <div class="hero-imgface"></div>
+        <div class="container">
+            <header>
+                <a href="index.html" class="logo">drewpartin<span>.com</span></a>
+
+                <nav>
+                    <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.783 18.516">
+                    <path id="Icon_material-close" data-name="Icon material-close" d="M25.82,9.227,23.975,7.5,16.66,14.346,9.345,7.5,7.5,9.227l7.315,6.846L7.5,22.92l1.845,1.727L16.66,17.8l7.315,6.846L25.82,22.92,18.5,16.073Z" transform="translate(-6.768 -6.815)" stroke="#000" stroke-width="1"/>
+                    </svg>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="gallery.html">gallery</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                        <li><a href="register.html">register</a></li>
+                    </ul> 
+                </nav>
+
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.597 16.73">
+                <path id="Icon_material-menu" data-name="Icon material-menu" d="M4.5,24.73H27.1V22.108H4.5Zm0-6.554H27.1V15.554H4.5ZM4.5,9v2.622H27.1V9Z" transform="translate(-4 -8.5)" fill="#fff" stroke="#fff" stroke-width="1"/>
+                </svg>    
+            </header>
+            
+            <!--START-->
+
+            <!--insert a section for contact info, give it a white background-->
+
+                <!--insert h1 tag with "Contact Info" and p tag with email underneath-->
+
+                <!--insert svg icons for LinkedIn, Twitter, and GitHub and make them anchor tags with links to my pages-->
+
+            <!--END-->
+        </div>
+
+        <footer class="footer">
+            <div class="copyright">
+                <p>Designed and published by Drew Partin for drewpartin.com.</p>
+                <p>copyright &copy; Drew Partin 2022. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script>
+            const menu = document.querySelector('.menu')
+            const close = document.querySelector('.close')
+            const nav = document.querySelector('nav')
+
+            menu.addEventListener('click', () => {
+                nav.classList.add('open-nav')
+            })
+            close.addEventListener('click', () => {
+                nav.classList.remove('open-nav')
+            })
+        </script>        
+    </body>
+</html>

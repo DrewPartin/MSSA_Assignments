@@ -1,0 +1,272 @@
+body {
+  margin: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  background: #58e2db;
+  background-size: cover;
+}
+
+body .container {
+  height: 89vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-imgbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index_images/nebula.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 55vh;
+  z-index: -2;
+  -webkit-animation: introLoad1 1s forwards;
+          animation: introLoad1 1s forwards;
+}
+
+.hero-imgface {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index_images/face-nobg-reversed.png);
+  background-size: 80%;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 55vh;
+  z-index: -1;
+  -webkit-animation: introLoad2 2.2s forwards;
+          animation: introLoad2 2.2s forwards;
+  opacity: 0;
+}
+
+.logo {
+  color: #58e2db;
+  font-weight: bold;
+}
+
+.logo span {
+  color: white;
+}
+
+nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(rgba(0, 0, 0, 0.904)), color-stop(rgba(0, 0, 0, 0.555)), color-stop(rgba(0, 0, 0, 0.062)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(black, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.062), rgba(0, 0, 0, 0));
+  height: 100vh;
+  width: 50%;
+  z-index: 99;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 7em;
+}
+
+nav ul a {
+  color: #58e2db;
+  padding: .75em 2em;
+  display: block;
+}
+
+nav ul a:hover {
+  background: rgba(168, 168, 168, 0.473);
+  font-size: 23.5px;
+  letter-spacing: .07em;
+  padding-left: 1.6em;
+  padding-top: .5em;
+  padding-bottom: .65em;
+  text-shadow: 3px 3px #1b1b1b;
+}
+
+nav .close {
+  width: 2em;
+  float: right;
+  margin: 2em;
+}
+
+nav .close path {
+  fill: white;
+  stroke: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header svg {
+  width: 2.3em;
+  margin-top: -.5em;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  line-height: .5rem;
+  font-size: .8rem;
+}
+
+.open-nav {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    margin: 1.5em 5em;
+  }
+  .hero-imgface {
+    right: 0;
+    left: auto;
+    width: 650px;
+    height: 55vh;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+}
+
+@media only screen and (min-width: 885px) {
+  .menu {
+    display: none;
+  }
+  body .hero-imgbg {
+    background-size: unset;
+    background-position-x: 18%;
+    background-position-y: 40%;
+  }
+  nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+  }
+  nav svg.close {
+    display: none;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  nav ul a {
+    color: white;
+    padding: 0 1.3em;
+    font-size: 1.1rem;
+    margin-top: .18em;
+  }
+  nav ul a:hover {
+    color: #58e2db;
+    background: none;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    letter-spacing: unset;
+    padding: 0 1.3em;
+    text-shadow: none;
+    margin-top: .18em;
+  }
+}
+
+@media only screen and (min-width: 1260px) {
+  body {
+    margin: 1.5em 10em;
+  }
+}
+
+@-webkit-keyframes introLoad1 {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@keyframes introLoad1 {
+  from {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@-webkit-keyframes introLoad2 {
+  from {
+    -webkit-clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+            clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+}
+
+@keyframes introLoad2 {
+  from {
+    -webkit-clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+            clip-path: polygon(100% 100%, 100% 100%, 100% 100%, 100% 100%);
+  }
+  to {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes moveDown {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
