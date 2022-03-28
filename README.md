@@ -112,3 +112,26 @@ Week 11
         1. Create an empty mvc application . add the static files created in html5. Use the static files middleware to display static files. You may use the About Me html page created before.
         2. Create an empty mvc application . Add interface: Idata containing basic CRUD , add model : Product. Add class : ProductData implementing Idata to create repository. Use dependency injection. This lab is to get familiar with dependency injections.
 
+Week 12
+
+    Assignment 12.1
+        1. Create an empty template MVC project. Add Product class as a model class with the following fields:
+            - Product Id
+            - Product Name
+            - Product Description
+            - Product Price
+            - Product Image
+        2. Add an IProductRepository with basic CRUD methods and write a class ProductRepository to implement these methods. (we will write logic afterwards)
+        3. Register this service in Configure services method:
+            - Add a Product Controller to have ation method "DisplayAll" which will return "AllProductsView". This view will display all the products from the repository.
+            - Provide a link to click on each product and see the details of individual products like photo, description, and price.
+
+    Assignment 12.2
+
+        1. Use the HTML / tag Helpers to create, display, and edit views in product website. (use the same previous lab done in mod 4)
+        2. Create MVC core web app to create: “Books Gallery”. UI to display necessary menu links like: Home, About, Books. Click on Books link to display names of books and click on each book to see details of each book (like photo, author, description). Book model class will also be needed.
+
+    Assignment 12.4
+
+        1. Modify existing products website application to now work with databases.
+
