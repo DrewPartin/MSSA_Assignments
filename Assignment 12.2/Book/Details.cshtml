@@ -1,0 +1,51 @@
+﻿@model Assignment_12._2.Models.Book
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+<div class="text-center">
+    <d1 class="align-middle">
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Title)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.SubTitle)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.SubTitle)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Author)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Author)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Summary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Summary)
+        </dd>
+    </d1>
+    <div style="padding:10px;">
+        @if(Model.ImageName!=" ")
+        {
+            <img src="~/images/@Model.ImageName" alt="@Model.ImageName" height="300"/>
+        }
+    </div>
+    <div>
+        @Html.ActionLink("Return to Bookshelf", "Index", "Book")
+    </div>
+</div>
+

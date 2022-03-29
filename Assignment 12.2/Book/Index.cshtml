@@ -1,0 +1,38 @@
+﻿@model Assignment_12._2.Models.IndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Bookshelf</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model=>model.Books[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Books[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model=>model.Books[0].SubTitle)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Books )
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelitem=>item.Id)</td>
+                <td>@Html.DisplayFor(modelitem=>item.Title)</td>
+                <td>@Html.DisplayFor(modelitem=>item.SubTitle)</td>
+                <td>
+                    <a asp-action="Details"asp-route-id = "@item.Id">More Info</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.ActionLink("Back to Home", "Index", "Home")
+
+
