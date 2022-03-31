@@ -131,6 +131,10 @@ Week 12
         1. Use the HTML / tag Helpers to create, display, and edit views in product website. (use the same previous lab done in mod 4)
         2. Create MVC core web app to create: “Books Gallery”. UI to display necessary menu links like: Home, About, Books. Click on Books link to display names of books and click on each book to see details of each book (like photo, author, description). Book model class will also be needed.
 
+    Assignment 12.3
+
+        1. Implement CRUD by using repository pattern for product website. Modify the existing mod 4 lab to add create, update and delete products. Use validation attributes.
+
     Assignment 12.4
 
         1. Modify existing products website application to now work with databases.

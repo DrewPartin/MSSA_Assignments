@@ -1,0 +1,49 @@
+﻿@model Assignment_12._3.Models.Product
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+<div class="text-center">
+    <d1 class="align-middle">
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Description)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Condition)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.Condition)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model=>Model.Price)
+        </dt>
+        <dd>
+            $@Html.DisplayFor(Model=>Model.Price)
+        </dd>
+    </d1>
+    <div style="padding:10px;">
+        @if(Model.ImageName!=" ")
+        {
+            <img src="~/images/@Model.ImageName" alt="@Model.ImageName" height="300"/>
+        }
+    </div>
+
+    @Html.ActionLink("Back to Product List", "Index", "Product")
+</div>
