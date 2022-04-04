@@ -139,3 +139,18 @@ Week 12
 
         1. Modify existing products website application to now work with databases.
 
+Week 13
+
+    Assignment 13.1
+
+        1. Create a separate layout for 1 or 2 views to display different layout than other. You may decide which views from product website.
+        2. Explore different bootstrap elements and check whether you could modify the product website with different bootstrap.
+
+    Assignment 13.2
+
+        1. Modify product website to redirect to custom error page in production environment and developer exception page in development environment.
+
+    Assignment 13.3
+
+        1. Apply security in products website to create login and account creation for new customer. Allow customer to log in.
+        2. Restrict the crud operations to only admins. Allow product display to customers.
