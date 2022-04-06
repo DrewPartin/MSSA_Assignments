@@ -150,6 +150,11 @@ Week 13
 
         1. Modify product website to redirect to custom error page in production environment and developer exception page in development environment.
 
+    Assignment 13.2.1
+
+        1. Create a web api to return data from a repository. May use the products related repository classes.
+        2. Use this web api in any (new)mvc application to display the data.
+
     Assignment 13.3
 
         1. Apply security in products website to create login and account creation for new customer. Allow customer to log in.
